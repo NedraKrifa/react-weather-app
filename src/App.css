@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 700px;
+  background-image: url("./images/img3.jpg");
+  background-size: cover;
+  background-position: right;
+  color: rgb(86, 89, 92);
+}
+.loading{
+  font-size: 24px;
+}
+.card__title{
+  font-size: 20px;
+}
+.card__temp img{
+  width: 150px;
+  height: 150px;
+
+}
+.card__temp span{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.form-weather{
+  display: flex;
+  width: 700px;
+}
+.input-weather{
+  flex : 10;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #000000;
+  margin-left: 20px;
+  outline: none;
+  padding-left: 5px;
+  font-size: 18px;
+}
+.input-weather:focus{
+  border-bottom: 2px solid coral;
+}
+.btn-weather{
+  flex: 1;
+  margin-left: 20px;
+  padding: 8px;
+  background-color: coral;
+  border: 1px solid rgb(151, 148, 148);
+}
