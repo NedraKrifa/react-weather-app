@@ -14,7 +14,6 @@ export class Weather extends Component {
       temp_max,
       temp_min,
       isLoading,
-      errors
     } = this.props.data;
     let iconurl = "http://openweathermap.org/img/w/" + icon + ".png";
     return (
